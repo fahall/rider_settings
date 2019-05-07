@@ -13,7 +13,7 @@
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
   </component>
   <component name="RiderCodeCompletionExtraSettings">
-    <option name="allowToCompleteWithWhitespace" value="false" />
+    <option name="hasNotifiedAboutCompletingWithSpace" value="true" />
   </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />

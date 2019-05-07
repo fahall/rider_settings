@@ -1,0 +1,177 @@
+<keymap version="1" name="Alex - VS w/ Mods" parent="Visual Studio">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChangesView.GroupBy.Directory">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="ChooseNextSubsequentPropertyValueEditorAction" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="c" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt divide" />
+  </action>
+  <action id="Debugger.MarkObject">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt k" />
+  </action>
+  <action id="Diagram.SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="EditorKillToWordEnd">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorKillToWordStart">
+    <keyboard-shortcut first-keystroke="shift ctrl x" second-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt w" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="alt p" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="FileChooser.TogglePathShowing">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="n" />
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt n" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt p" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt l" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Print">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="RiderTypeHierarchy.BaseOnThisType">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt h" />
+  </action>
+  <action id="RiderUnitTestRunCurrentSessionTwAction">
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
+  <action id="SilentCodeCleanup">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt f" />
+  </action>
+  <action id="SurroundWithLiveTemplate">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt u" />
+  </action>
+  <action id="TodoViewGroupByShowPackages">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt k" />
+  </action>
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt h" />
+  </action>
+  <action id="Unscramble">
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="t" />
+    <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt t" />
+  </action>
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.MoveWatchUp" />
+</keymap>
