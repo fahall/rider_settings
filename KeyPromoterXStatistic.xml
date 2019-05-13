@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Analyze Stack Trace...">
+        <Item>
+          <IdeaActionID>Unscramble</IdeaActionID>
+          <ShortCut>'Alt+E, T' or 'Alt+E, Alt+T'</ShortCut>
+          <Description>Analyze Stack Trace...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Explorer">
         <Item>
           <IdeaActionID>ActivateExplorerToolWindow</IdeaActionID>
