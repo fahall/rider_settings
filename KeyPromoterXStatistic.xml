@@ -17,6 +17,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'F12'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Explorer">
         <Item>
           <IdeaActionID>ActivateExplorerToolWindow</IdeaActionID>
