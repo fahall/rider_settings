@@ -137,6 +137,9 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
+  <action id="RiderBackendAction-MoveIntoMatchingFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl alt windows" second-keystroke="r" />
+  </action>
   <action id="RiderTypeHierarchy.BaseOnThisType">
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="h" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt h" />
