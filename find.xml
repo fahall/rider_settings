@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '...\Assets\Scripts\Analytics\Events\Implementations\LoginToExistingAccountClicked'" />
-    <option name="defaultScopeName" value="Directory '...\Assets\Scripts\Analytics\Events\Implementations\LoginToExistingAccountClicked'" />
+    <option name="customScope" value="Solution" />
+    <option name="defaultScopeName" value="Solution" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '...\Assets\Scripts\Analytics\Events\Implementations\LoginToExistingAccountClicked'" />
+    <option name="SEARCH_SCOPE" value="Solution" />
   </component>
 </application>
