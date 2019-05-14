@@ -49,12 +49,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Next Error">
+        <Item>
+          <IdeaActionID>ReSharperGotoNextErrorInSolution</IdeaActionID>
+          <ShortCut>'Alt+Shift+Page Down'</ShortCut>
+          <Description>Next Error</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Refactor This...">
         <Item>
           <IdeaActionID>Refactorings.QuickListPopupAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+R'</ShortCut>
           <Description>Refactor This...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
