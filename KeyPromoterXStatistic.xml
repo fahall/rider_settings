@@ -94,7 +94,7 @@
           <IdeaActionID>ShowIntentionActions</IdeaActionID>
           <ShortCut>'Alt+Enter'</ShortCut>
           <Description>Show Intention Actions</Description>
-          <Count>11</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Over">
