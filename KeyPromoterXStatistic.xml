@@ -65,6 +65,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Errors In Solution">
+        <Item>
+          <IdeaActionID>ActivateErrorsInSolutionToolWindow</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+2'</ShortCut>
+          <Description>Errors In Solution</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Evaluate Expression...">
         <Item>
           <IdeaActionID>EvaluateExpression</IdeaActionID>
