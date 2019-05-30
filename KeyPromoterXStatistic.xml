@@ -22,7 +22,7 @@
           <IdeaActionID>CodeCleanup</IdeaActionID>
           <ShortCut>'Alt+E, Alt+C' or 'Alt+E, C'</ShortCut>
           <Description>Code Cleanup...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -126,7 +126,7 @@
           <IdeaActionID>Refactorings.QuickListPopupAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+R'</ShortCut>
           <Description>Refactor This...</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove All Line Breakpoints">
