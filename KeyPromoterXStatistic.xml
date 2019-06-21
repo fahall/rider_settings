@@ -134,7 +134,7 @@
           <IdeaActionID>Refactorings.QuickListPopupAction</IdeaActionID>
           <ShortCut>'Ctrl+Shift+R'</ShortCut>
           <Description>Refactor This...</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove All Line Breakpoints">
