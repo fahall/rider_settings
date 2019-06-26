@@ -254,7 +254,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5'</ShortCut>
           <Description>Stop 'Attach to Unity Editor'</Description>
-          <Count>155</Count>
+          <Count>156</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
