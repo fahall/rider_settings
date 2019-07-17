@@ -167,6 +167,9 @@
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="f" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt f" />
   </action>
+  <action id="StringManipulation.ToPascalCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt p" />
+  </action>
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="u" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt u" />
@@ -191,4 +194,13 @@
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
+  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt l" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt u" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.WordsCapitalizeAction">
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt c" />
+  </action>
 </keymap>
