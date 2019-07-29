@@ -46,7 +46,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Alt+F5'</ShortCut>
           <Description>Debug 'Attach to Unity Editor'</Description>
-          <Count>226</Count>
+          <Count>231</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Default'">
@@ -62,7 +62,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'F12'</ShortCut>
           <Description>Declaration</Description>
-          <Count>22</Count>
+          <Count>23</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -246,7 +246,7 @@
           <IdeaActionID>Jdbc.OpenEditor.DDL</IdeaActionID>
           <ShortCut>'F12'</ShortCut>
           <Description>Source Editor</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Out">
@@ -294,7 +294,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5'</ShortCut>
           <Description>Stop 'Attach to Unity Editor'</Description>
-          <Count>235</Count>
+          <Count>241</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
@@ -310,7 +310,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>114</Count>
+          <Count>122</Count>
         </Item>
       </Statistic>
       <Statistic Action="Unit Tests">
