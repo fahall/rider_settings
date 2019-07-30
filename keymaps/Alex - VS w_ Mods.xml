@@ -152,6 +152,10 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt r" />
+  </action>
   <action id="Print">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
