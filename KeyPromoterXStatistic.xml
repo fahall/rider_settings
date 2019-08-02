@@ -46,7 +46,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Alt+F5'</ShortCut>
           <Description>Debug 'Attach to Unity Editor'</Description>
-          <Count>257</Count>
+          <Count>259</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Default'">
@@ -294,7 +294,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5'</ShortCut>
           <Description>Stop 'Attach to Unity Editor'</Description>
-          <Count>265</Count>
+          <Count>266</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
