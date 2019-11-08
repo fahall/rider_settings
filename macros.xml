@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Cut Entire Line">
+      <action id="EditorLineStart" />
+      <action id="EditorCutLineEnd" />
+      <action id="EditorDeleteLine" />
+      <action id="EditorLineEnd" />
+    </macro>
+  </component>
+</application>
