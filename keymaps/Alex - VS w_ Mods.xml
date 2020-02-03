@@ -111,6 +111,10 @@
     <keyboard-shortcut first-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="i" />
+  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt n" />
@@ -131,6 +135,10 @@
   </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
+  </action>
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="shift i" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="shift ctrl i" />
   </action>
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="l" />
