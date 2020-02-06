@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'D:\Repos\lit\Assets\Projects\FableCommon\FableCommon.csproj'" />
-    <option name="defaultScopeName" value="File 'D:\Repos\lit\Assets\Projects\FableCommon\FableCommon.csproj'" />
-    <option name="SEARCH_SCOPE" value="File 'D:\Repos\lit\Assets\Projects\FableCommon\FableCommon.csproj'" />
+    <option name="customScope" value="Directory '...\Assets\FableCommon'" />
+    <option name="defaultScopeName" value="Directory '...\Assets\FableCommon'" />
+    <option name="SEARCH_SCOPE" value="Directory '...\Assets\FableCommon'" />
   </component>
 </application>
