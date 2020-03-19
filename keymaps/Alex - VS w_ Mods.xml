@@ -251,6 +251,11 @@
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="t" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt t" />
   </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="shift ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="shift p" />
+  </action>
   <action id="Vcs.ReformatCommitMessage">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
