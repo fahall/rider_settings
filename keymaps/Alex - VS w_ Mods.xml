@@ -150,6 +150,10 @@
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl f" />
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
   </action>
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="m" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />
@@ -256,8 +260,8 @@
   </action>
   <action id="Vcs.ToggleAmendCommitMode">
     <keyboard-shortcut first-keystroke="alt m" />
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl m" />
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="m" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="a" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
