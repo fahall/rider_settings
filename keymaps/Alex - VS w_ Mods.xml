@@ -203,8 +203,10 @@
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="alt left" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt t" />
+  </action>
+  <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt r" />
   </action>
   <action id="Print">
