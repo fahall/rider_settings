@@ -1,0 +1,3 @@
+<templateSet group="Markdown">
+  <template name="cc" value="- [ ]" description="checkbox" toReformat="false" toShortenFQNames="true" />
+</templateSet>
