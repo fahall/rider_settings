@@ -1,7 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '~/repos/Frontera/Assets/Frontera'" />
-    <option name="defaultScopeName" value="Directory '~/repos/Frontera/Assets/Frontera'" />
-    <option name="SEARCH_SCOPE" value="Directory '~/repos/Frontera/Assets/Frontera'" />
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Ah &amp; Frontera Scripts" />
+    <option name="defaultScopeName" value="Ah &amp; Frontera Scripts" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Ah &amp; Frontera Scripts" />
+    <option name="FILE_MASK" value="*.cs" />
   </component>
 </application>
