@@ -1,11 +1,9 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Solution" />
-    <option name="defaultScopeName" value="Solution" />
-    <option name="regularExpressions" value="true" />
+    <option name="customScope" value="Ah &amp; Frontera Scripts" />
+    <option name="defaultScopeName" value="Ah &amp; Frontera Scripts" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Solution" />
+    <option name="SEARCH_SCOPE" value="Ah &amp; Frontera Scripts" />
   </component>
 </application>
