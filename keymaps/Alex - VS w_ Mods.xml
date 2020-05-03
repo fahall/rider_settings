@@ -179,6 +179,10 @@
   <action id="Graph.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
