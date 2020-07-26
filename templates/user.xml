@@ -12,6 +12,29 @@
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSON" value="false" />
       <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="entitasInit" value="public sealed class $NAME$System : IInitializeSystem&#10;{&#10;    public $NAME$System(Contexts contexts)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Initialize()&#10;    {&#10;        $END$&#10;    }&#10;}" description="InitializeSystem for entitas" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
       <option name="REQUEST" value="false" />
       <option name="SQL" value="false" />
       <option name="TypeScript" value="false" />
