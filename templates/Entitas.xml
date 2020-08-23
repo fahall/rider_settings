@@ -1,5 +1,5 @@
 <templateSet group="Entitas">
-  <template name="entitasExec" value="public sealed class $NAME$System : IExecuteSystem&#10;{&#10;    public $NAME$System(Contexts contexts)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Execute()&#10;    {&#10;        $END$&#10;    }&#10;}" description="ExecuteSystem for Entitas" toReformat="false" toShortenFQNames="true">
+  <template name="entitasExec" value="internal sealed class $NAME$System : IExecuteSystem&#10;{&#10;    public $NAME$System(Contexts contexts)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Execute()&#10;    {&#10;        $END$&#10;    }&#10;}" description="ExecuteSystem for Entitas" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CTOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -21,7 +21,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="entitasInitExec" value="public sealed class $NAME$System : IInitializeSystem, IExecuteSystem&#10;{&#10;    public $NAME$System(Contexts contexts)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Initialize()&#10;    {&#10;        $INIT$&#10;    }&#10;    &#10;    public void Execute()&#10;    {&#10;        $END$&#10;    }&#10;}" description="Initialize &amp; ExecuteSystem for Entitas" toReformat="false" toShortenFQNames="true">
+  <template name="entitasInitExec" value="internal sealed class $NAME$System : IInitializeSystem, IExecuteSystem&#10;{&#10;    public $NAME$System(Contexts contexts)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Initialize()&#10;    {&#10;        $INIT$&#10;    }&#10;    &#10;    public void Execute()&#10;    {&#10;        $END$&#10;    }&#10;}" description="Initialize &amp; ExecuteSystem for Entitas" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CTOR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INIT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -44,7 +44,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="entitasReact" value="public sealed class $NAME$System : ReactiveSystem&lt;$CONTEXT$Entity&gt;&#10;{&#10;    public $NAME$System(Contexts contexts) : base(contexts.$CONTEXT_LOWER$))&#10;    {&#10;        $CTOR$&#10;    }&#10;&#10;    protected override ICollector&lt;$CONTEXT$Entity&gt; GetTrigger(IContext&lt;$CONTEXT$Entity&gt; context)&#10;    {&#10;        $TRIGGER$&#10;    }&#10;&#10;    protected override bool Filter($CONTEXT$Entity entity)&#10;    {&#10;        $FILTER$&#10;    }&#10;&#10;    protected override void Execute(List&lt;$CONTEXT$Entity&gt; entities)&#10;    {&#10;        $END$&#10;    }&#10;}" description="ReactiveSystem for Entitas" toReformat="false" toShortenFQNames="true">
+  <template name="entitasReact" value="internal sealed class $NAME$System : ReactiveSystem&lt;$CONTEXT$Entity&gt;&#10;{&#10;    public $NAME$System(Contexts contexts) : base(contexts.$CONTEXT_LOWER$)&#10;    {&#10;        $CTOR$&#10;    }&#10;&#10;    protected override ICollector&lt;$CONTEXT$Entity&gt; GetTrigger(IContext&lt;$CONTEXT$Entity&gt; context)&#10;    {&#10;        $TRIGGER$&#10;    }&#10;&#10;    protected override bool Filter($CONTEXT$Entity entity)&#10;    {&#10;        $FILTER$&#10;    }&#10;&#10;    protected override void Execute(List&lt;$CONTEXT$Entity&gt; entities)&#10;    {&#10;        $END$&#10;    }&#10;}" description="ReactiveSystem for Entitas" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTEXT_LOWER" expression="snakeCase(CONTEXT)" defaultValue="" alwaysStopAt="false" />
@@ -70,7 +70,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="entitasInitReact" value="public sealed class $NAME$System : ReactiveSystem&lt;$CONTEXT$Entity&gt;, IInitializeSystem&#10;{&#10;    public $NAME$System(Contexts contexts) : base(contexts.$CONTEXT_LOWER$)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Initialize()&#10;    {&#10;        $INIT$&#10;    }&#10;&#10;    protected override ICollector&lt;$CONTEXT$Entity&gt; GetTrigger(IContext&lt;$CONTEXT$Entity&gt; context)&#10;    {&#10;        $TRIGGER$   &#10;    }&#10;&#10;    protected override bool Filter($CONTEXT$Entity entity)&#10;    {&#10;        $FILTER$&#10;    }&#10;&#10;    protected override void Execute(List&lt;$CONTEXT$Entity&gt; entities)&#10;    {&#10;        $END$&#10;    }&#10;}" description="Initialize &amp; Reactive System for entitas" toReformat="false" toShortenFQNames="true">
+  <template name="entitasInitReact" value="internal sealed class $NAME$System : ReactiveSystem&lt;$CONTEXT$Entity&gt;, IInitializeSystem&#10;{&#10;    public $NAME$System(Contexts contexts) : base(contexts.$CONTEXT_LOWER$)&#10;    {&#10;        $CTOR$&#10;    }&#10;    &#10;    public void Initialize()&#10;    {&#10;        $INIT$&#10;    }&#10;&#10;    protected override ICollector&lt;$CONTEXT$Entity&gt; GetTrigger(IContext&lt;$CONTEXT$Entity&gt; context)&#10;    {&#10;        $TRIGGER$   &#10;    }&#10;&#10;    protected override bool Filter($CONTEXT$Entity entity)&#10;    {&#10;        $FILTER$&#10;    }&#10;&#10;    protected override void Execute(List&lt;$CONTEXT$Entity&gt; entities)&#10;    {&#10;        $END$&#10;    }&#10;}" description="Initialize &amp; Reactive System for entitas" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTEXT_LOWER" expression="" defaultValue="" alwaysStopAt="false" />
