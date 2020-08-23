@@ -79,4 +79,28 @@
     <variable name="TRIGGER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILTER" expression="" defaultValue="return true;" alwaysStopAt="true" />
   </template>
+  <template name="entitasCleanup" value="using System.Collections.Generic;&#10;using Entitas;&#10;&#10;namespace Unknown.Namespace&#10;{&#10;    public sealed class $NAME$System : ICleanupSystem &#10;    {&#10;&#10;        readonly IGroup&lt;$CONTEXT$Entity&gt; _group;&#10;        readonly List&lt;$CONTEXT$Entity&gt; _buffer = new List&lt;$CONTEXT$Entity&gt;();&#10;&#10;        public $NAME$System(Contexts contexts) &#10;        {&#10;            _group = contexts.$GET$;&#10;        }&#10;&#10;        public void Cleanup() &#10;        {&#10;            foreach (var e in _group.GetEntities(_buffer)) &#10;            {&#10;                e.$REMOVE$&#10;            }&#10;        }&#10;    }&#10;}" description="ICleanupSystem for Entitas" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GET" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REMOVE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
