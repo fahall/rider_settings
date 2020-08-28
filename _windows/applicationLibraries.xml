@@ -1,0 +1,42 @@
+<application>
+  <component name="libraryTable">
+    <library name="Python 3.8 (venv) interpreter library">
+      <CLASSES>
+        <root url="file://C:/Python38/DLLs" />
+        <root url="file://C:/Python38/Lib" />
+        <root url="file://C:/Python38" />
+        <root url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/venv" />
+        <root url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/venv/Lib/site-packages" />
+        <root url="file://C:/Python38/Lib/site-packages" />
+        <root url="file://C:/Python38/Lib/site-packages/win32" />
+        <root url="file://C:/Python38/Lib/site-packages/win32/lib" />
+        <root url="file://C:/Python38/Lib/site-packages/pythonwin" />
+        <root url="file://$USER_HOME$/AppData/Local/JetBrains/Rider2020.1/python_stubs/-1681035057" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Python38/DLLs" />
+        <root url="file://C:/Python38/Lib" />
+        <root url="file://C:/Python38" />
+        <root url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/venv" />
+        <root url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/venv/Lib/site-packages" />
+        <root url="file://C:/Python38/Lib/site-packages" />
+        <root url="file://C:/Python38/Lib/site-packages/win32" />
+        <root url="file://C:/Python38/Lib/site-packages/win32/lib" />
+        <root url="file://C:/Python38/Lib/site-packages/pythonwin" />
+        <root url="file://$USER_HOME$/AppData/Local/JetBrains/Rider2020.1/python_stubs/-1681035057" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
+  </component>
+</application>
