@@ -9,7 +9,6 @@
     <entry key="search.everywhere.pattern.checking" value="false" />
     <entry key="parameter.info.max.visible.rows" value="10" />
     <entry key="ide.tooltip.initialDelay" value="0" />
-    <entry key="ide.tooltip.initialDelay.highlighter" value="0" />
     <entry key="ide.win.file.chooser.native" value="true" />
     <entry key="ide.tree.horizontal.default.autoscrolling" value="false" />
     <entry key="ide.win.frame.decoration" value="true" />
@@ -29,7 +28,8 @@
     <entry key="show.diff.preview.as.editor.tab.with.single.click" value="true" />
     <entry key="vcs.log.show.diff.preview.as.editor.tab" value="true" />
     <entry key="light.edit.file.open.enabled" value="false" />
-    <entry key="actionSystem.fix.alt.gr" value="false" />
-    <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="ide.borderless.tab.caption.in.title" value="false" />
+    <entry key="ide.debug.in.title" value="true" />
+    <entry key="rdclient.asyncActions" value="false" />
   </component>
 </application>
