@@ -48,18 +48,21 @@
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt c" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="c" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl c" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
     <keyboard-shortcut first-keystroke="ctrl alt divide" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
   </action>
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="DatabaseView.OpenDdlInConsole" />
-  <action id="Debugger.MarkObject">
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="k" />
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt k" />
-  </action>
+  <action id="Debugger.MarkObject" />
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -87,8 +90,21 @@
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
-  <action id="EditorCutLineEnd">
-    <keyboard-shortcut first-keystroke="ctrl k" />
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl a" />
+  </action>
+  <action id="EditorDeleteToWordEnd" />
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+  </action>
+  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -173,14 +189,8 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl g" />
   </action>
-  <action id="GotoNextBookmark">
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="n" />
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt n" />
-  </action>
-  <action id="GotoPreviousBookmark">
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="p" />
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt p" />
-  </action>
+  <action id="GotoNextBookmark" />
+  <action id="GotoPreviousBookmark" />
   <action id="Graph.ActualSize">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
@@ -262,10 +272,7 @@
   <action id="TodoViewGroupByShowPackages">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
-  <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="k" />
-    <keyboard-shortcut first-keystroke="alt k" second-keystroke="alt k" />
-  </action>
+  <action id="ToggleBookmark" />
   <action id="TypeHierarchy">
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="h" />
     <keyboard-shortcut first-keystroke="alt e" second-keystroke="alt h" />
