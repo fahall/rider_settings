@@ -1,10 +1,12 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="InternalsVisibleToTests" type="AUTO_DETECTED" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <mapping ext="webp" type="Image" />
       <mapping pattern=".gitinclude" type="PLAIN_TEXT" />
       <mapping ext="userproperties" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <mapping pattern="InternalsVisibleToTests" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
 </application>
