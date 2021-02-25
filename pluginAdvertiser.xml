@@ -189,7 +189,34 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.c">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.c++">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.cache">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cc">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
@@ -303,6 +330,24 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cpp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.cql">
           <value>
             <plugin>
@@ -375,11 +420,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cu">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cuh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.cvsignore">
           <value>
             <plugin>
               <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
               <option name="myPluginName" value=".ignore" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cxx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -683,6 +755,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.gdbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gdsl">
           <value>
             <plugin>
@@ -763,6 +844,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.h">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.handlebars">
           <value>
             <plugin>
@@ -803,6 +893,15 @@
             <plugin>
               <option name="myPluginId" value="hg4idea" />
               <option name="myPluginName" value="Mercurial" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -852,6 +951,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.hpp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.htm">
           <value>
             <plugin>
@@ -875,6 +983,15 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.restClient" />
               <option name="myPluginName" value="HTTP Client" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.hxx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -958,7 +1075,52 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.inc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ini">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
+              <option name="myPluginName" value="Ini" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.inl">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ino">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.inputactions">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ipp">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
@@ -1199,6 +1361,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.lldbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.localizationmanager">
           <value>
             <plugin>
@@ -1315,6 +1486,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.mpp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.msbuildproj">
           <value>
             <plugin>
@@ -1342,6 +1522,15 @@
           </value>
         </entry>
         <entry key="*.myapp">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.natvis">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
@@ -1459,6 +1648,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij.platform.images" />
               <option name="myPluginName" value="com.intellij.platform.images" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.pch">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -2032,6 +2230,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.tcc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.template">
           <value>
             <plugin>
@@ -2086,6 +2293,15 @@
           </value>
         </entry>
         <entry key="*.tld">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.tpp">
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij" />
@@ -2173,11 +2389,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.uasset">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ufont">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.ui">
           <value>
             <plugin>
               <option name="myPluginId" value="PythonCore" />
               <option name="myPluginName" value="Python Community Edition" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.umap">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2199,11 +2442,56 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.upack">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.upignore">
           <value>
             <plugin>
               <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
               <option name="myPluginName" value=".ignore" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.uplugin">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.uproject">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.rider-cpp" />
+              <option name="myPluginName" value="Support for C++ Language" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.usf">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.ush">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2585,6 +2873,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".flowconfig">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
+              <option name="myPluginName" value="Ini" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".gitmodules">
           <value>
             <plugin>
@@ -2869,6 +3166,11 @@
                   <entry key="ConnectRemote">
                     <value>
                       <FeaturePluginData displayName="Mono Remote" pluginName="IDEA CORE" pluginId="com.intellij" />
+                    </value>
+                  </entry>
+                  <entry key="CppProject">
+                    <value>
+                      <FeaturePluginData displayName="C++ Project" pluginName="Support for C++ Language" pluginId="com.jetbrains.rider-cpp" />
                     </value>
                   </entry>
                   <entry key="DatabaseScript">
