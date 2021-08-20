@@ -244,6 +244,7 @@
     <debuggers>
       <debugger id="dotnet_debugger">
         <configuration>
+          <option name="breakOnUserUnhandledExceptions" value="true" />
           <option name="evaluationTimeoutMs" value="10000" />
         </configuration>
       </debugger>
