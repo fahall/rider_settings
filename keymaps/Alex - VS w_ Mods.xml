@@ -125,6 +125,9 @@
   <action id="EditorDeleteToWordStartInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="EditorKillToWordEnd">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
