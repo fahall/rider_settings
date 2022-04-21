@@ -6,6 +6,7 @@
       <mapping pattern="TestCompleteE01Input" type="AUTO_DETECTED" />
       <mapping ext="webp" type="Image" />
       <mapping pattern=".gitinclude" type="PLAIN_TEXT" />
+      <mapping ext="tales" type="PLAIN_TEXT" />
       <mapping ext="userproperties" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="Ini" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
