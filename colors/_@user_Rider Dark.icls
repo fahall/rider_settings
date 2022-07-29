@@ -2,10 +2,15 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2019-05-07T13:29:18</property>
+    <property name="description" />
     <property name="ide">Rider</property>
     <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2020-11-07T15:26:12</property>
+    <property name="modified">2022-07-29T12:48:50</property>
     <property name="originalScheme">Rider Dark</property>
+    <property name="vendorMail" />
+    <property name="vendorName" />
+    <property name="vendorUrl">http://</property>
+    <property name="version">0.1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
