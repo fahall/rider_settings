@@ -244,7 +244,7 @@
     <debuggers>
       <debugger id="dotnet_debugger">
         <configuration>
-          <option name="breakOnUserUnhandledExceptions" value="true" />
+          <option name="breakOnUnhandledExceptions" value="false" />
           <option name="evaluationTimeoutMs" value="10000" />
           <option name="userUnhandledExceptionsIgnoreList">
             <list>
@@ -254,6 +254,11 @@
               <option value="System.ArgumentNullException" />
             </list>
           </option>
+        </configuration>
+      </debugger>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <nt-symbol-settings />
         </configuration>
       </debugger>
       <debugger id="javascript">
