@@ -245,6 +245,7 @@
       <debugger id="dotnet_debugger">
         <configuration>
           <option name="breakOnUnhandledExceptions" value="false" />
+          <option name="enableExternalSourceDebug" value="false" />
           <option name="evaluationTimeoutMs" value="10000" />
           <option name="userUnhandledExceptionsIgnoreList">
             <list>
