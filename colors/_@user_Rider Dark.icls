@@ -5,7 +5,7 @@
     <property name="description" />
     <property name="ide">Rider</property>
     <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2022-07-29T12:48:50</property>
+    <property name="modified">2023-05-01T14:54:59</property>
     <property name="originalScheme">Rider Dark</property>
     <property name="vendorMail" />
     <property name="vendorName" />
@@ -15,7 +15,7 @@
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
@@ -36,9 +36,30 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INFO_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="1aff" />
+        <option name="ERROR_STRIPE_COLOR" value="1aff" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUNTIME_ERROR">
+      <value>
+        <option name="EFFECT_COLOR" value="f49810" />
+        <option name="ERROR_STRIPE_COLOR" value="1aff" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="ReSharper.OPERATOR_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ffff00" />
+      </value>
+    </option>
+    <option name="SUGGESTION">
+      <value>
+        <option name="EFFECT_COLOR" value="1aff" />
+        <option name="ERROR_STRIPE_COLOR" value="85c46c" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
