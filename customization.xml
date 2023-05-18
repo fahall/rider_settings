@@ -1,0 +1,11 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="EditorToggleShowBreadcrumbs" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Toolbar" />
+      <path value="Left Side" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="EditorToggleShowBreadcrumbs" icon="jar:file:/C:/Program%20Files/JetBrains/JetBrains%20Rider%202022.2/lib/app.jar!/toolbar/unknown.svg" />
+  </component>
+</application>
