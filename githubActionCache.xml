@@ -9,7 +9,9 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.github/actions/get-version-number" />
-                  <entry key="expiryTime" value="1705362053413" />
+                  <entry key="expiryTime" value="1706572013216" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="true" />
                   <entry key="isSuppressed" value="false" />
@@ -27,7 +29,9 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.github/actions/upload-release" />
-                  <entry key="expiryTime" value="1705362109070" />
+                  <entry key="expiryTime" value="1706572013217" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="true" />
                   <entry key="isSuppressed" value="false" />
@@ -45,7 +49,9 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.github/workflows/run-build-deploy-for-requested-platforms.yml" />
-                  <entry key="expiryTime" value="1705362053431" />
+                  <entry key="expiryTime" value="1706572013217" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="true" />
                   <entry key="isSuppressed" value="false" />
@@ -63,7 +69,9 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.github/workflows/run-unity-tests.yml" />
-                  <entry key="expiryTime" value="1705362053395" />
+                  <entry key="expiryTime" value="1706572013217" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="true" />
                   <entry key="isSuppressed" value="false" />
@@ -78,33 +86,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="enableCrossOsArchive" value="r[false] def[false] An optional boolean when enabled, allows windows runners to save or restore caches that can be restored or saved respectively on other platforms" />
-                  <entry key="fail-on-cache-miss" value="r[false] def[false] Fail the workflow if cache entry is not found" />
-                  <entry key="key" value="r[true]  An explicit key for restoring and saving the cache" />
-                  <entry key="lookup-only" value="r[false] def[false] Check if a cache entry exists for the given input(s) (key, restore-keys) without downloading the cache" />
-                  <entry key="path" value="r[true]  A list of files, directories, and wildcard patterns to cache and restore" />
-                  <entry key="restore-keys" value="r[false]  An ordered list of keys to use for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case." />
-                  <entry key="upload-chunk-size" value="r[false]  The chunk size used to split up large files during upload, in bytes" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362106867" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/cache" />
                   <entry key="usesValue" value="actions/cache@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
                 </map>
               </option>
             </GitHubAction>
@@ -114,35 +107,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362053338" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v3" />
@@ -158,8 +131,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/download-artifact/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362107707" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/actions/download-artifact/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -174,22 +149,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="if-no-files-found" value="r[false] def[warn]" />
-                  <entry key="name" value="r[false] def[artifact] Artifact name" />
-                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
-                  <entry key="retention-days" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362106875" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/upload-artifact" />
                   <entry key="usesValue" value="actions/upload-artifact@v3" />
@@ -205,8 +173,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/avocaddo/AppCenter-Github-Action/v1.0.2/action.yml" />
-                  <entry key="expiryTime" value="1705362107708" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/avocaddo/AppCenter-Github-Action/tree/v1.0.2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -221,75 +191,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allowDirtyBuild" value="r[false]  [CloudRunner] Allows the branch of the build to be dirty, and still generate the build." />
-                  <entry key="androidExportType" value="r[false] def[androidPackage] The android export type. Should be androidPackage for apk, androidAppBundle for aab, or androidStudioProject for&#10;      an android studio project." />
-                  <entry key="androidKeyaliasName" value="r[false]  The android keyaliasName" />
-                  <entry key="androidKeyaliasPass" value="r[false]  The android keyaliasPass" />
-                  <entry key="androidKeystoreBase64" value="r[false]  The base64 contents of the android keystore file" />
-                  <entry key="androidKeystoreName" value="r[false]  The android keystoreName" />
-                  <entry key="androidKeystorePass" value="r[false]  The android keystorePass" />
-                  <entry key="androidSymbolType" value="r[false] def[none] The android symbol type to export. Should be &quot;none&quot;, &quot;public&quot; or &quot;debugging&quot;." />
-                  <entry key="androidTargetSdkVersion" value="r[false]  The android target API level." />
-                  <entry key="androidVersionCode" value="r[false]  The android versionCode" />
-                  <entry key="awsStackName" value="r[false] def[game-ci] [CloudRunner] The Cloud Formation stack name that must be setup before using this option." />
-                  <entry key="buildMethod" value="r[false]  Path to a Namespace.Class.StaticMethod to run to perform the build." />
-                  <entry key="buildName" value="r[false]  Name of the build. Should not include a file extension." />
-                  <entry key="buildsPath" value="r[false]  Path where the builds should be stored." />
-                  <entry key="cacheKey" value="r[false]  [CloudRunner] Cache key to indicate bucket for cache" />
-                  <entry key="cacheUnityInstallationOnMac" value="r[false] def[false] Whether to cache the Unity hub and editor installation on MacOS" />
-                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
-                  <entry key="cloudRunnerCpu" value="r[false]  [CloudRunner] Amount of CPU time to assign the remote build container" />
-                  <entry key="cloudRunnerMemory" value="r[false]  [CloudRunner] Amount of memory to assign the remote build container" />
-                  <entry key="containerHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom steps to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/steps/" />
-                  <entry key="customCommandHooks" value="r[false]  [CloudRunner] Specify custom commands and trigger hooks (injects commands into jobs)" />
-                  <entry key="customHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom hooks to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/hooks/" />
-                  <entry key="customImage" value="r[false]  Specific docker image that should be used for building the project" />
-                  <entry key="customJob" value="r[false]  [CloudRunner] Run a custom job instead of the standard build automation for cloud runner (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
-                  <entry key="customParameters" value="r[false]  Custom parameters to configure the build." />
-                  <entry key="dockerWorkspacePath" value="r[false] def[/github/workspace] The path to mount the workspace inside the docker container. For windows, leave out the drive letter. For example&#10;      c:/github/workspace should be defined as /github/workspace" />
-                  <entry key="gitPrivateToken" value="r[false]  [CloudRunner] Github private token to pull from github" />
-                  <entry key="githubOwner" value="r[false]  [CloudRunner] GitHub owner name or organization/team name" />
-                  <entry key="kubeConfig" value="r[false]  [CloudRunner] Supply a base64 encoded kubernetes config to run builds on kubernetes and stream logs until&#10;      completion." />
-                  <entry key="kubeStorageClass" value="r[false]  [CloudRunner] Kubernetes storage class to use for cloud runner jobs, leave empty to install rook cluster." />
-                  <entry key="kubeVolume" value="r[false]  [CloudRunner] Supply a Persistent Volume Claim name to use for the Unity build." />
-                  <entry key="kubeVolumeSize" value="r[false] def[5Gi] [CloudRunner] Amount of disc space to assign the Kubernetes Persistent Volume" />
-                  <entry key="postBuildSteps" value="r[false]  [CloudRunner] run a post build job in yaml format with the keys image, secrets (name, value object array),&#10;      command string" />
-                  <entry key="preBuildSteps" value="r[false]  [CloudRunner] Run a pre build job after the repository setup but before the build job (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
-                  <entry key="projectPath" value="r[false]  Relative path to the project to be built." />
-                  <entry key="providerStrategy" value="r[false] def[local] [CloudRunner] Either local, k8s or aws can be used to run builds on a remote cluster. Additional parameters must&#10;      be configured." />
-                  <entry key="readInputFromOverrideList" value="r[false]  [CloudRunner] Comma separated list of input value names to read from &quot;input override command&quot;" />
-                  <entry key="readInputOverrideCommand" value="r[false]  [CloudRunner] Extend game ci by specifying a command to execute to pull input from external source e.g cloud&#10;      provider secret managers" />
-                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container" />
-                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
-                  <entry key="targetPlatform" value="r[true]  Platform that the build should target." />
-                  <entry key="unityHubVersionOnMac" value="r[false]  The version of Unity Hub to install on MacOS (e.g. 3.4.0). Defaults to latest available on brew if empty string&#10;      or nothing is specified." />
-                  <entry key="unityLicensingServer" value="r[false]  The Unity licensing server address to use for activating Unity." />
-                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for building the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt" />
-                  <entry key="version" value="r[false]  The version, when used with the &quot;Custom&quot; versioning scheme" />
-                  <entry key="versioning" value="r[false] def[Semantic] The versioning scheme to use when building the project" />
-                  <entry key="watchToEnd" value="r[false] def[true] [CloudRunner] Whether or not to watch the build to the end. Can be used for especially long running jobs e.g&#10;      imports or self-hosted ephemeral runners." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-builder/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362109065" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/game-ci/unity-builder/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="game-ci/unity-builder" />
                   <entry key="usesValue" value="game-ci/unity-builder@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="androidVersionCode" value=" The generated versionCode used for the Android Unity build" />
-                  <entry key="buildVersion" value=" The generated version used for the Unity build" />
-                  <entry key="volume" value=" The Persistent Volume (PV) where the build artifacts have been stored by Kubernetes" />
                 </map>
               </option>
             </GitHubAction>
@@ -299,43 +212,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="artifactsPath" value="r[false] def[artifacts] Path where test artifacts should be stored." />
-                  <entry key="checkName" value="r[false] def[Test Results] Name for the check run that is created when a github token is provided." />
-                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
-                  <entry key="coverageOptions" value="r[false] def[generateAdditionalMetrics;generateHtmlReport;generateBadgeReport;dontClear] Optional coverage parameters for the -coverageOptions argument. To get coverage in Package Mode, pass assemblies from the package you want covered to the assemblyFilters option." />
-                  <entry key="customImage" value="r[false]  Specific docker image that should be used for testing the project. If packageMode is true, this image must have jq installed." />
-                  <entry key="customParameters" value="r[false]  Extra parameters to configure the Unity editor run." />
-                  <entry key="gitPrivateToken" value="r[false]  GitHub Private Access Token (PAT) to pull from GitHub." />
-                  <entry key="githubToken" value="r[false]  Token to authorize access to the GitHub REST API. If provided, a check run will be created with the test results." />
-                  <entry key="packageMode" value="r[false] def[false] Whether the tests are being run for a Unity package instead of a Unity project. If true, the action can only be run on Linux runners, and any custom docker image passed to this action must have `jq` installed. NOTE: may not work properly for packages with dependencies outside of the Unity Registry." />
-                  <entry key="projectPath" value="r[false]  Path to the Unity project or package to be tested." />
-                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container." />
-                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
-                  <entry key="testMode" value="r[false] def[all] The type of tests to be run by the test runner." />
-                  <entry key="unityLicensingServer" value="r[false]  Url to a unity license server for acquiring floating licenses." />
-                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for testing the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt. âš ï¸� If testing a Unity Package, this field is required and cannot be set to &quot;auto&quot;." />
-                  <entry key="useHostNetwork" value="r[false] def[false] Initialises Docker using the host network." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-test-runner/v3/action.yml" />
-                  <entry key="expiryTime" value="1705362106870" />
+                  <entry key="expiryTime" value="1706572013216" />
                   <entry key="githubUrl" value="https://github.com/game-ci/unity-test-runner/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="game-ci/unity-test-runner" />
                   <entry key="usesValue" value="game-ci/unity-test-runner@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="artifactsPath" value=" Path where the artifacts are stored." />
-                  <entry key="coveragePath" value=" Path where the code coverage results are stored." />
                 </map>
               </option>
             </GitHubAction>
@@ -345,56 +233,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="allowUpdates" value="r[false]  An optional flag which indicates if we should update a release if it already exists. Defaults to false." />
-                  <entry key="artifact" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
-                  <entry key="artifactContentType" value="r[false]  The content type of the artifact. Defaults to raw" />
-                  <entry key="artifactErrorsFailBuild" value="r[false]  An optional flag which indicates if artifact read or upload errors should fail the build." />
-                  <entry key="artifacts" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
-                  <entry key="body" value="r[false]  An optional body for the release." />
-                  <entry key="bodyFile" value="r[false]  An optional body file for the release. This should be the path to the file" />
-                  <entry key="commit" value="r[false]  An optional commit reference. This will be used to create the tag if it does not exist." />
-                  <entry key="discussionCategory" value="r[false]  When provided this will generate a discussion of the specified category. The category must exist otherwise this will cause the action to fail. This isn't used with draft releases" />
-                  <entry key="draft" value="r[false]  Optionally marks this release as a draft release. Set to true to enable." />
-                  <entry key="generateReleaseNotes" value="r[false] def[false] Indicates if release notes should be automatically generated." />
-                  <entry key="makeLatest" value="r[false] def[legacy] Indicates if the release should be the &quot;latest&quot; release or not." />
-                  <entry key="name" value="r[false]  An optional name for the release. If this is omitted the tag will be used." />
-                  <entry key="omitBody" value="r[false] def[false] Indicates if the release body should be omitted." />
-                  <entry key="omitBodyDuringUpdate" value="r[false] def[false] Indicates if the release body should be omitted during updates. The body will still be applied for newly created releases. This will preserve the existing body during updates." />
-                  <entry key="omitDraftDuringUpdate" value="r[false] def[false] Indicates if the draft flag should be omitted during updates. The draft flag will still be applied for newly created releases. This will preserve the existing draft state during updates." />
-                  <entry key="omitName" value="r[false] def[false] Indicates if the release name should be omitted." />
-                  <entry key="omitNameDuringUpdate" value="r[false] def[false] Indicates if the release name should be omitted during updates. The name will still be applied for newly created releases. This will preserve the existing name during updates." />
-                  <entry key="omitPrereleaseDuringUpdate" value="r[false] def[false] Indicates if the prerelease flag should be omitted during updates. The prerelease flag will still be applied for newly created releases. This will preserve the existing prerelease state during updates." />
-                  <entry key="owner" value="r[false]  Optionally specify the owner of the repo where the release should be generated. Defaults to current repo's owner." />
-                  <entry key="prerelease" value="r[false]  Optionally marks this release as prerelease. Set to true to enable." />
-                  <entry key="removeArtifacts" value="r[false] def[false] Indicates if existing release artifacts should be removed, Defaults to false." />
-                  <entry key="replacesArtifacts" value="r[false] def[true] Indicates if existing release artifacts should be replaced. Defaults to true." />
-                  <entry key="repo" value="r[false]  Optionally specify the repo where the release should be generated. Defaults to current repo" />
-                  <entry key="skipIfReleaseExists" value="r[false] def[false] When skipIfReleaseExists is enabled the action will be skipped if a non-draft release already exists for the provided tag." />
-                  <entry key="tag" value="r[false]  An optional tag for the release. If this is omitted the git ref will be used (if it is a tag)." />
-                  <entry key="token" value="r[false] def[${{ github.token }}] The Github token." />
-                  <entry key="updateOnlyUnreleased" value="r[false] def[false] When allowUpdates is enabled, this will fail the action if the release it is updating is not a draft or a prerelease." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1/action.yml" />
-                  <entry key="expiryTime" value="1705362089577" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/ncipollo/release-action/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="ncipollo/release-action" />
                   <entry key="usesValue" value="ncipollo/release-action@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="html_url" value=" The HTML URL of the release." />
-                  <entry key="id" value=" The identifier of the created release." />
-                  <entry key="upload_url" value=" The URL for uploading assets to the release." />
                 </map>
               </option>
             </GitHubAction>
@@ -407,8 +257,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/paulhatch/semantic-version/v5.0.3/action.yml" />
-                  <entry key="expiryTime" value="1705362113626" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/paulhatch/semantic-version/tree/v5.0.3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -423,48 +275,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="commitish" value="r[false] " />
-                  <entry key="config-name" value="r[false] def[release-drafter.yml]" />
-                  <entry key="disable-autolabeler" value="r[false] " />
-                  <entry key="disable-releaser" value="r[false] " />
-                  <entry key="footer" value="r[false] " />
-                  <entry key="header" value="r[false] " />
-                  <entry key="latest" value="r[false] " />
-                  <entry key="name" value="r[false] " />
-                  <entry key="prerelease" value="r[false] " />
-                  <entry key="prerelease-identifier" value="r[false] " />
-                  <entry key="publish" value="r[false] " />
-                  <entry key="tag" value="r[false] " />
-                  <entry key="version" value="r[false] " />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/release-drafter/release-drafter/v5/action.yml" />
-                  <entry key="expiryTime" value="1705362053414" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/release-drafter/release-drafter/tree/v5#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="release-drafter/release-drafter" />
                   <entry key="usesValue" value="release-drafter/release-drafter@v5" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="body" value=" The body of the drafted release." />
-                  <entry key="html_url" value=" The URL users can navigate to in order to view the release" />
-                  <entry key="id" value=" The ID of therelease that was created or updated." />
-                  <entry key="major_version" value=" The next major version number. For example, if the last tag or release was v1.2.3, the value would be v2.0.0." />
-                  <entry key="minor_version" value=" The next minor version number. For example, if the last tag or release was v1.2.3, the value would be v1.3.0." />
-                  <entry key="name" value=" The name of the release" />
-                  <entry key="patch_version" value=" The next patch version number. For example, if the last tag or release was v1.2.3, the value would be v1.2.4." />
-                  <entry key="resolved_version" value=" The next resolved version number, based on GitHub labels." />
-                  <entry key="tag_name" value=" The name of the tag associated with the release." />
-                  <entry key="upload_url" value=" The URL for uploading assets to the release, which could be used by GitHub Actions for additional uses, for example the @actions/upload-release-asset GitHub Action." />
                 </map>
               </option>
             </GitHubAction>
@@ -474,33 +296,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="bundler" value="r[false] " />
-                  <entry key="bundler-cache" value="r[false] def[false] Run &quot;bundle install&quot;, and cache the result automatically. Either true or false." />
-                  <entry key="cache-version" value="r[false] " />
-                  <entry key="ruby-version" value="r[false] def[default] Engine and version to use, see the syntax in the README. Reads from .ruby-version or .tool-versions if unset." />
-                  <entry key="rubygems" value="r[false] " />
-                  <entry key="self-hosted" value="r[false] " />
-                  <entry key="working-directory" value="r[false]  The working directory to use for resolving paths for .ruby-version, .tool-versions and Gemfile.lock." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ruby/setup-ruby/v1/action.yml" />
-                  <entry key="expiryTime" value="1705362055003" />
+                  <entry key="expiryTime" value="1706572013217" />
                   <entry key="githubUrl" value="https://github.com/ruby/setup-ruby/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="ruby/setup-ruby" />
                   <entry key="usesValue" value="ruby/setup-ruby@v1" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="ruby-prefix" value=" The prefix of the installed ruby" />
                 </map>
               </option>
             </GitHubAction>
