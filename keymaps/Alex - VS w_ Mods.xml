@@ -12,9 +12,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
-  <action id="$SelectAll">
-    <keyboard-shortcut first-keystroke="alt a" />
-  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -83,7 +80,7 @@
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
   <action id="Editor SelectAll">
-    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -148,19 +145,19 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift end" />
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="alt f" />
