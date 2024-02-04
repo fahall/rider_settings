@@ -107,6 +107,27 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
+                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
+                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
+                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
+                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
+                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
+                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
+                  <entry key="ref" value="r[false] " />
+                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
+                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
+                  <entry key="sparse-checkout" value="r[false] def[null]" />
+                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
+                  <entry key="ssh-key" value="r[false] " />
+                  <entry key="ssh-known-hosts" value="r[false] " />
+                  <entry key="ssh-strict" value="r[false] def[true]" />
+                  <entry key="submodules" value="r[false] def[false]" />
+                  <entry key="token" value="r[false] def[${{ github.token }}]" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v3/action.yml" />
@@ -116,6 +137,7 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v3" />
@@ -233,6 +255,38 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="allowUpdates" value="r[false]  An optional flag which indicates if we should update a release if it already exists. Defaults to false." />
+                  <entry key="artifact" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
+                  <entry key="artifactContentType" value="r[false]  The content type of the artifact. Defaults to raw" />
+                  <entry key="artifactErrorsFailBuild" value="r[false]  An optional flag which indicates if artifact read or upload errors should fail the build." />
+                  <entry key="artifacts" value="r[false]  An optional set of paths representing artifacts to upload to the release. This may be a single path or a comma delimited list of paths (or globs)" />
+                  <entry key="body" value="r[false]  An optional body for the release." />
+                  <entry key="bodyFile" value="r[false]  An optional body file for the release. This should be the path to the file" />
+                  <entry key="commit" value="r[false]  An optional commit reference. This will be used to create the tag if it does not exist." />
+                  <entry key="discussionCategory" value="r[false]  When provided this will generate a discussion of the specified category. The category must exist otherwise this will cause the action to fail. This isn't used with draft releases" />
+                  <entry key="draft" value="r[false]  Optionally marks this release as a draft release. Set to true to enable." />
+                  <entry key="generateReleaseNotes" value="r[false] def[false] Indicates if release notes should be automatically generated." />
+                  <entry key="makeLatest" value="r[false] def[legacy] Indicates if the release should be the &quot;latest&quot; release or not." />
+                  <entry key="name" value="r[false]  An optional name for the release. If this is omitted the tag will be used." />
+                  <entry key="omitBody" value="r[false] def[false] Indicates if the release body should be omitted." />
+                  <entry key="omitBodyDuringUpdate" value="r[false] def[false] Indicates if the release body should be omitted during updates. The body will still be applied for newly created releases. This will preserve the existing body during updates." />
+                  <entry key="omitDraftDuringUpdate" value="r[false] def[false] Indicates if the draft flag should be omitted during updates. The draft flag will still be applied for newly created releases. This will preserve the existing draft state during updates." />
+                  <entry key="omitName" value="r[false] def[false] Indicates if the release name should be omitted." />
+                  <entry key="omitNameDuringUpdate" value="r[false] def[false] Indicates if the release name should be omitted during updates. The name will still be applied for newly created releases. This will preserve the existing name during updates." />
+                  <entry key="omitPrereleaseDuringUpdate" value="r[false] def[false] Indicates if the prerelease flag should be omitted during updates. The prerelease flag will still be applied for newly created releases. This will preserve the existing prerelease state during updates." />
+                  <entry key="owner" value="r[false]  Optionally specify the owner of the repo where the release should be generated. Defaults to current repo's owner." />
+                  <entry key="prerelease" value="r[false]  Optionally marks this release as prerelease. Set to true to enable." />
+                  <entry key="removeArtifacts" value="r[false] def[false] Indicates if existing release artifacts should be removed, Defaults to false." />
+                  <entry key="replacesArtifacts" value="r[false] def[true] Indicates if existing release artifacts should be replaced. Defaults to true." />
+                  <entry key="repo" value="r[false]  Optionally specify the repo where the release should be generated. Defaults to current repo" />
+                  <entry key="skipIfReleaseExists" value="r[false] def[false] When skipIfReleaseExists is enabled the action will be skipped if a non-draft release already exists for the provided tag." />
+                  <entry key="tag" value="r[false]  An optional tag for the release. If this is omitted the git ref will be used (if it is a tag)." />
+                  <entry key="token" value="r[false] def[${{ github.token }}] The Github token." />
+                  <entry key="updateOnlyUnreleased" value="r[false] def[false] When allowUpdates is enabled, this will fail the action if the release it is updating is not a draft or a prerelease." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/ncipollo/release-action/v1/action.yml" />
@@ -242,9 +296,17 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="ncipollo/release-action" />
                   <entry key="usesValue" value="ncipollo/release-action@v1" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="html_url" value=" The HTML URL of the release." />
+                  <entry key="id" value=" The identifier of the created release." />
+                  <entry key="upload_url" value=" The URL for uploading assets to the release." />
                 </map>
               </option>
             </GitHubAction>
@@ -275,6 +337,23 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="commitish" value="r[false] " />
+                  <entry key="config-name" value="r[false] def[release-drafter.yml]" />
+                  <entry key="disable-autolabeler" value="r[false] " />
+                  <entry key="disable-releaser" value="r[false] " />
+                  <entry key="footer" value="r[false] " />
+                  <entry key="header" value="r[false] " />
+                  <entry key="latest" value="r[false] " />
+                  <entry key="name" value="r[false] " />
+                  <entry key="prerelease" value="r[false] " />
+                  <entry key="prerelease-identifier" value="r[false] " />
+                  <entry key="publish" value="r[false] " />
+                  <entry key="tag" value="r[false] " />
+                  <entry key="version" value="r[false] " />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/release-drafter/release-drafter/v5/action.yml" />
@@ -284,9 +363,24 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="release-drafter/release-drafter" />
                   <entry key="usesValue" value="release-drafter/release-drafter@v5" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="body" value=" The body of the drafted release." />
+                  <entry key="html_url" value=" The URL users can navigate to in order to view the release" />
+                  <entry key="id" value=" The ID of therelease that was created or updated." />
+                  <entry key="major_version" value=" The next major version number. For example, if the last tag or release was v1.2.3, the value would be v2.0.0." />
+                  <entry key="minor_version" value=" The next minor version number. For example, if the last tag or release was v1.2.3, the value would be v1.3.0." />
+                  <entry key="name" value=" The name of the release" />
+                  <entry key="patch_version" value=" The next patch version number. For example, if the last tag or release was v1.2.3, the value would be v1.2.4." />
+                  <entry key="resolved_version" value=" The next resolved version number, based on GitHub labels." />
+                  <entry key="tag_name" value=" The name of the tag associated with the release." />
+                  <entry key="upload_url" value=" The URL for uploading assets to the release, which could be used by GitHub Actions for additional uses, for example the @actions/upload-release-asset GitHub Action." />
                 </map>
               </option>
             </GitHubAction>
