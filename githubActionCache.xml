@@ -62,6 +62,60 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="./.github/workflows/run-build-for-platform.yml">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="./.github/workflows/run-build-for-platform.yml" />
+                  <entry key="expiryTime" value="1708298118356" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="./.github/workflows/run-build-for-platform.yml" />
+                  <entry key="usesValue" value="./.github/workflows/run-build-for-platform.yml" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="./.github/workflows/run-deploy-android.yml">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="./.github/workflows/run-deploy-android.yml" />
+                  <entry key="expiryTime" value="1708298118357" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="./.github/workflows/run-deploy-android.yml" />
+                  <entry key="usesValue" value="./.github/workflows/run-deploy-android.yml" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="./.github/workflows/run-deploy-ios.yml">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="./.github/workflows/run-deploy-ios.yml" />
+                  <entry key="expiryTime" value="1708298118357" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="./.github/workflows/run-deploy-ios.yml" />
+                  <entry key="usesValue" value="./.github/workflows/run-deploy-ios.yml" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="./.github/workflows/run-unity-tests.yml">
           <value>
             <GitHubAction>
@@ -86,6 +140,17 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="enableCrossOsArchive" value="r[false] def[false] An optional boolean when enabled, allows windows runners to save or restore caches that can be restored or saved respectively on other platforms" />
+                  <entry key="fail-on-cache-miss" value="r[false] def[false] Fail the workflow if cache entry is not found" />
+                  <entry key="key" value="r[true]  An explicit key for restoring and saving the cache" />
+                  <entry key="lookup-only" value="r[false] def[false] Check if a cache entry exists for the given input(s) (key, restore-keys) without downloading the cache" />
+                  <entry key="path" value="r[true]  A list of files, directories, and wildcard patterns to cache and restore" />
+                  <entry key="restore-keys" value="r[false]  An ordered list of keys to use for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case." />
+                  <entry key="upload-chunk-size" value="r[false]  The chunk size used to split up large files during upload, in bytes" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v3/action.yml" />
@@ -95,9 +160,15 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/cache" />
                   <entry key="usesValue" value="actions/cache@v3" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
                 </map>
               </option>
             </GitHubAction>
@@ -192,6 +263,12 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="command" value="r[true]  The full App Center CLI command" />
+                  <entry key="token" value="r[true]  Upload token - you can get one from appcenter.ms/settings" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/avocaddo/AppCenter-Github-Action/v1.0.2/action.yml" />
@@ -201,6 +278,7 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="avocaddo/AppCenter-Github-Action" />
                   <entry key="usesValue" value="avocaddo/AppCenter-Github-Action@v1.0.2" />
@@ -213,6 +291,57 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="allowDirtyBuild" value="r[false]  [CloudRunner] Allows the branch of the build to be dirty, and still generate the build." />
+                  <entry key="androidExportType" value="r[false] def[androidPackage] The android export type. Should be androidPackage for apk, androidAppBundle for aab, or androidStudioProject for&#10;      an android studio project." />
+                  <entry key="androidKeyaliasName" value="r[false]  The android keyaliasName" />
+                  <entry key="androidKeyaliasPass" value="r[false]  The android keyaliasPass" />
+                  <entry key="androidKeystoreBase64" value="r[false]  The base64 contents of the android keystore file" />
+                  <entry key="androidKeystoreName" value="r[false]  The android keystoreName" />
+                  <entry key="androidKeystorePass" value="r[false]  The android keystorePass" />
+                  <entry key="androidSymbolType" value="r[false] def[none] The android symbol type to export. Should be &quot;none&quot;, &quot;public&quot; or &quot;debugging&quot;." />
+                  <entry key="androidTargetSdkVersion" value="r[false]  The android target API level." />
+                  <entry key="androidVersionCode" value="r[false]  The android versionCode" />
+                  <entry key="awsStackName" value="r[false] def[game-ci] [CloudRunner] The Cloud Formation stack name that must be setup before using this option." />
+                  <entry key="buildMethod" value="r[false]  Path to a Namespace.Class.StaticMethod to run to perform the build." />
+                  <entry key="buildName" value="r[false]  Name of the build. Should not include a file extension." />
+                  <entry key="buildsPath" value="r[false]  Path where the builds should be stored." />
+                  <entry key="cacheKey" value="r[false]  [CloudRunner] Cache key to indicate bucket for cache" />
+                  <entry key="cacheUnityInstallationOnMac" value="r[false] def[false] Whether to cache the Unity hub and editor installation on MacOS" />
+                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
+                  <entry key="cloudRunnerCpu" value="r[false]  [CloudRunner] Amount of CPU time to assign the remote build container" />
+                  <entry key="cloudRunnerMemory" value="r[false]  [CloudRunner] Amount of memory to assign the remote build container" />
+                  <entry key="containerHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom steps to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/steps/" />
+                  <entry key="customCommandHooks" value="r[false]  [CloudRunner] Specify custom commands and trigger hooks (injects commands into jobs)" />
+                  <entry key="customHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom hooks to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/hooks/" />
+                  <entry key="customImage" value="r[false]  Specific docker image that should be used for building the project" />
+                  <entry key="customJob" value="r[false]  [CloudRunner] Run a custom job instead of the standard build automation for cloud runner (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
+                  <entry key="customParameters" value="r[false]  Custom parameters to configure the build." />
+                  <entry key="dockerWorkspacePath" value="r[false] def[/github/workspace] The path to mount the workspace inside the docker container. For windows, leave out the drive letter. For example&#10;      c:/github/workspace should be defined as /github/workspace" />
+                  <entry key="gitPrivateToken" value="r[false]  [CloudRunner] Github private token to pull from github" />
+                  <entry key="githubOwner" value="r[false]  [CloudRunner] GitHub owner name or organization/team name" />
+                  <entry key="kubeConfig" value="r[false]  [CloudRunner] Supply a base64 encoded kubernetes config to run builds on kubernetes and stream logs until&#10;      completion." />
+                  <entry key="kubeStorageClass" value="r[false]  [CloudRunner] Kubernetes storage class to use for cloud runner jobs, leave empty to install rook cluster." />
+                  <entry key="kubeVolume" value="r[false]  [CloudRunner] Supply a Persistent Volume Claim name to use for the Unity build." />
+                  <entry key="kubeVolumeSize" value="r[false] def[5Gi] [CloudRunner] Amount of disc space to assign the Kubernetes Persistent Volume" />
+                  <entry key="postBuildSteps" value="r[false]  [CloudRunner] run a post build job in yaml format with the keys image, secrets (name, value object array),&#10;      command string" />
+                  <entry key="preBuildSteps" value="r[false]  [CloudRunner] Run a pre build job after the repository setup but before the build job (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
+                  <entry key="projectPath" value="r[false]  Relative path to the project to be built." />
+                  <entry key="providerStrategy" value="r[false] def[local] [CloudRunner] Either local, k8s or aws can be used to run builds on a remote cluster. Additional parameters must&#10;      be configured." />
+                  <entry key="readInputFromOverrideList" value="r[false]  [CloudRunner] Comma separated list of input value names to read from &quot;input override command&quot;" />
+                  <entry key="readInputOverrideCommand" value="r[false]  [CloudRunner] Extend game ci by specifying a command to execute to pull input from external source e.g cloud&#10;      provider secret managers" />
+                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container" />
+                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
+                  <entry key="targetPlatform" value="r[true]  Platform that the build should target." />
+                  <entry key="unityHubVersionOnMac" value="r[false]  The version of Unity Hub to install on MacOS (e.g. 3.4.0). Defaults to latest available on brew if empty string&#10;      or nothing is specified." />
+                  <entry key="unityLicensingServer" value="r[false]  The Unity licensing server address to use for activating Unity." />
+                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for building the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt" />
+                  <entry key="version" value="r[false]  The version, when used with the &quot;Custom&quot; versioning scheme" />
+                  <entry key="versioning" value="r[false] def[Semantic] The versioning scheme to use when building the project" />
+                  <entry key="watchToEnd" value="r[false] def[true] [CloudRunner] Whether or not to watch the build to the end. Can be used for especially long running jobs e.g&#10;      imports or self-hosted ephemeral runners." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-builder/v3/action.yml" />
@@ -222,9 +351,17 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="game-ci/unity-builder" />
                   <entry key="usesValue" value="game-ci/unity-builder@v3" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="androidVersionCode" value=" The generated versionCode used for the Android Unity build" />
+                  <entry key="buildVersion" value=" The generated version used for the Unity build" />
+                  <entry key="volume" value=" The Persistent Volume (PV) where the build artifacts have been stored by Kubernetes" />
                 </map>
               </option>
             </GitHubAction>
