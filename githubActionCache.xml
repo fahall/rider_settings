@@ -735,6 +735,25 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="game-ci/unity-builder@v">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-builder/v/action.yml" />
+                  <entry key="expiryTime" value="1708476090339" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-builder/tree/v#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-builder" />
+                  <entry key="usesValue" value="game-ci/unity-builder@v" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="game-ci/unity-builder@v3">
           <value>
             <GitHubAction>
@@ -815,10 +834,192 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="game-ci/unity-builder@v4">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="allowDirtyBuild" value="r[false]  [CloudRunner] Allows the branch of the build to be dirty, and still generate the build." />
+                  <entry key="androidExportType" value="r[false] def[androidPackage] The android export type. Should be androidPackage for apk, androidAppBundle for aab, or androidStudioProject for&#10;      an android studio project." />
+                  <entry key="androidKeyaliasName" value="r[false]  The android keyaliasName" />
+                  <entry key="androidKeyaliasPass" value="r[false]  The android keyaliasPass" />
+                  <entry key="androidKeystoreBase64" value="r[false]  The base64 contents of the android keystore file" />
+                  <entry key="androidKeystoreName" value="r[false]  The android keystoreName" />
+                  <entry key="androidKeystorePass" value="r[false]  The android keystorePass" />
+                  <entry key="androidSymbolType" value="r[false] def[none] The android symbol type to export. Should be &quot;none&quot;, &quot;public&quot; or &quot;debugging&quot;." />
+                  <entry key="androidTargetSdkVersion" value="r[false]  The android target API level." />
+                  <entry key="androidVersionCode" value="r[false]  The android versionCode" />
+                  <entry key="awsStackName" value="r[false] def[game-ci] [CloudRunner] The Cloud Formation stack name that must be setup before using this option." />
+                  <entry key="buildMethod" value="r[false]  Path to a Namespace.Class.StaticMethod to run to perform the build." />
+                  <entry key="buildName" value="r[false]  Name of the build. Should not include a file extension." />
+                  <entry key="buildsPath" value="r[false]  Path where the builds should be stored." />
+                  <entry key="cacheKey" value="r[false]  [CloudRunner] Cache key to indicate bucket for cache" />
+                  <entry key="cacheUnityInstallationOnMac" value="r[false] def[false] Whether to cache the Unity hub and editor installation on MacOS" />
+                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
+                  <entry key="cloudRunnerCpu" value="r[false]  [CloudRunner] Amount of CPU time to assign the remote build container" />
+                  <entry key="cloudRunnerMemory" value="r[false]  [CloudRunner] Amount of memory to assign the remote build container" />
+                  <entry key="containerHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom steps to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/steps/" />
+                  <entry key="containerRegistryImageVersion" value="r[false] def[3] Container registry image version. Only applicable if customImage is not set." />
+                  <entry key="containerRegistryRepository" value="r[false] def[unityci/editor] Container registry and repository to pull image from. Only applicable if customImage is not set." />
+                  <entry key="customCommandHooks" value="r[false]  [CloudRunner] Specify custom commands and trigger hooks (injects commands into jobs)" />
+                  <entry key="customHookFiles" value="r[false]  [CloudRunner] Specify the names (by file name) of custom hooks to run before or after cloud runner jobs, must&#10;      match a yaml step file inside your repo in the folder .game-ci/hooks/" />
+                  <entry key="customImage" value="r[false]  Specific docker image that should be used for building the project" />
+                  <entry key="customJob" value="r[false]  [CloudRunner] Run a custom job instead of the standard build automation for cloud runner (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
+                  <entry key="customParameters" value="r[false]  Custom parameters to configure the build." />
+                  <entry key="dockerCpuLimit" value="r[false]  Number of CPU cores to assign the docker container. Defaults to all available cores on all platforms." />
+                  <entry key="dockerIsolationMode" value="r[false] def[default] Isolation mode to use for the docker container. Can be one of process, hyperv, or default. Default will pick the&#10;      default mode as described by Microsoft where server versions use process and desktop versions use hyperv. Only&#10;      applicable on Windows" />
+                  <entry key="dockerMemoryLimit" value="r[false]  Amount of memory to assign the docker container. Defaults to 95% of total system memory rounded down to the&#10;      nearest megabyte on Linux and 80% on Windows. On unrecognized platforms, defaults to 75% of total system memory.&#10;      To manually specify a value, use the format &lt;number&gt;&lt;unit&gt;, where unit is either m or g. ie: 512m = 512 megabytes" />
+                  <entry key="dockerWorkspacePath" value="r[false] def[/github/workspace] The path to mount the workspace inside the docker container. For windows, leave out the drive letter. For example&#10;      c:/github/workspace should be defined as /github/workspace" />
+                  <entry key="gitPrivateToken" value="r[false]  [CloudRunner] Github private token to pull from github" />
+                  <entry key="githubOwner" value="r[false]  [CloudRunner] GitHub owner name or organization/team name" />
+                  <entry key="kubeConfig" value="r[false]  [CloudRunner] Supply a base64 encoded kubernetes config to run builds on kubernetes and stream logs until&#10;      completion." />
+                  <entry key="kubeStorageClass" value="r[false]  [CloudRunner] Kubernetes storage class to use for cloud runner jobs, leave empty to install rook cluster." />
+                  <entry key="kubeVolume" value="r[false]  [CloudRunner] Supply a Persistent Volume Claim name to use for the Unity build." />
+                  <entry key="kubeVolumeSize" value="r[false] def[5Gi] [CloudRunner] Amount of disc space to assign the Kubernetes Persistent Volume" />
+                  <entry key="manualExit" value="r[false]  Suppresses `-quit`. Exit your build method using `EditorApplication.Exit(0)` instead." />
+                  <entry key="postBuildSteps" value="r[false]  [CloudRunner] run a post build job in yaml format with the keys image, secrets (name, value object array),&#10;      command string" />
+                  <entry key="preBuildSteps" value="r[false]  [CloudRunner] Run a pre build job after the repository setup but before the build job (in yaml format with the&#10;      keys image, secrets (name, value object array), command line string)" />
+                  <entry key="projectPath" value="r[false]  Relative path to the project to be built." />
+                  <entry key="providerStrategy" value="r[false] def[local] [CloudRunner] Either local, k8s or aws can be used to run builds on a remote cluster. Additional parameters must&#10;      be configured." />
+                  <entry key="readInputFromOverrideList" value="r[false]  [CloudRunner] Comma separated list of input value names to read from &quot;input override command&quot;" />
+                  <entry key="readInputOverrideCommand" value="r[false]  [CloudRunner] Extend game ci by specifying a command to execute to pull input from external source e.g cloud&#10;      provider secret managers" />
+                  <entry key="runAsHostUser" value="r[false] def[false] Whether to run as a user that matches the host system or the default root container user. Only applicable to&#10;      Linux hosts and containers. This is useful for fixing permission errors on Self-Hosted runners." />
+                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container" />
+                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
+                  <entry key="targetPlatform" value="r[true]  Platform that the build should target." />
+                  <entry key="unityHubVersionOnMac" value="r[false]  The version of Unity Hub to install on MacOS (e.g. 3.4.0). Defaults to latest available on brew if empty string&#10;      or nothing is specified." />
+                  <entry key="unityLicensingServer" value="r[false]  The Unity licensing server address to use for activating Unity." />
+                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for building the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt" />
+                  <entry key="version" value="r[false]  The version, when used with the &quot;Custom&quot; versioning scheme" />
+                  <entry key="versioning" value="r[false] def[Semantic] The versioning scheme to use when building the project" />
+                  <entry key="watchToEnd" value="r[false] def[true] [CloudRunner] Whether or not to watch the build to the end. Can be used for especially long running jobs e.g&#10;      imports or self-hosted ephemeral runners." />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-builder/v4/action.yml" />
+                  <entry key="expiryTime" value="1708476090708" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-builder/tree/v4#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-builder" />
+                  <entry key="usesValue" value="game-ci/unity-builder@v4" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="androidVersionCode" value=" The generated versionCode used for the Android Unity build" />
+                  <entry key="buildVersion" value=" The generated version used for the Unity build" />
+                  <entry key="engineExitCode" value=" Returns the exit code from the build scripts. This code is 0 if the build was successful. If there was an error&#10;      during activation, the code is from the activation step. If activation is successful, the code is from the project&#10;      build step." />
+                  <entry key="volume" value=" The Persistent Volume (PV) where the build artifacts have been stored by Kubernetes" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="game-ci/unity-request-activation-file@v">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-request-activation-file/v/action.yml" />
+                  <entry key="expiryTime" value="1708476085209" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-request-activation-file/tree/v#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-request-activation-file" />
+                  <entry key="usesValue" value="game-ci/unity-request-activation-file@v" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="game-ci/unity-request-activation-file@v3">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-request-activation-file/v3/action.yml" />
+                  <entry key="expiryTime" value="1708476079893" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-request-activation-file/tree/v3#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-request-activation-file" />
+                  <entry key="usesValue" value="game-ci/unity-request-activation-file@v3" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="game-ci/unity-request-activation-file@v4">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-request-activation-file/v4/action.yml" />
+                  <entry key="expiryTime" value="1708476085595" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-request-activation-file/tree/v4#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-request-activation-file" />
+                  <entry key="usesValue" value="game-ci/unity-request-activation-file@v4" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="game-ci/unity-test-runner@v">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-test-runner/v/action.yml" />
+                  <entry key="expiryTime" value="1708476077178" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-test-runner/tree/v#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-test-runner" />
+                  <entry key="usesValue" value="game-ci/unity-test-runner@v" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="game-ci/unity-test-runner@v3">
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="artifactsPath" value="r[false] def[artifacts] Path where test artifacts should be stored." />
+                  <entry key="checkName" value="r[false] def[Test Results] Name for the check run that is created when a github token is provided." />
+                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
+                  <entry key="coverageOptions" value="r[false] def[generateAdditionalMetrics;generateHtmlReport;generateBadgeReport;dontClear] Optional coverage parameters for the -coverageOptions argument. To get coverage in Package Mode, pass assemblies from the package you want covered to the assemblyFilters option." />
+                  <entry key="customImage" value="r[false]  Specific docker image that should be used for testing the project. If packageMode is true, this image must have jq installed." />
+                  <entry key="customParameters" value="r[false]  Extra parameters to configure the Unity editor run." />
+                  <entry key="gitPrivateToken" value="r[false]  GitHub Private Access Token (PAT) to pull from GitHub." />
+                  <entry key="githubToken" value="r[false]  Token to authorize access to the GitHub REST API. If provided, a check run will be created with the test results." />
+                  <entry key="packageMode" value="r[false] def[false] Whether the tests are being run for a Unity package instead of a Unity project. If true, the action can only be run on Linux runners, and any custom docker image passed to this action must have `jq` installed. NOTE: may not work properly for packages with dependencies outside of the Unity Registry." />
+                  <entry key="projectPath" value="r[false]  Path to the Unity project or package to be tested." />
+                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container." />
+                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
+                  <entry key="testMode" value="r[false] def[all] The type of tests to be run by the test runner." />
+                  <entry key="unityLicensingServer" value="r[false]  Url to a unity license server for acquiring floating licenses." />
+                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for testing the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt. âš ï¸� If testing a Unity Package, this field is required and cannot be set to &quot;auto&quot;." />
+                  <entry key="useHostNetwork" value="r[false] def[false] Initialises Docker using the host network." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-test-runner/v3/action.yml" />
@@ -828,9 +1029,68 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="game-ci/unity-test-runner" />
                   <entry key="usesValue" value="game-ci/unity-test-runner@v3" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="artifactsPath" value=" Path where the artifacts are stored." />
+                  <entry key="coveragePath" value=" Path where the code coverage results are stored." />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="game-ci/unity-test-runner@v4">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="artifactsPath" value="r[false] def[artifacts] Path where test artifacts should be stored." />
+                  <entry key="checkName" value="r[false] def[Test Results] Name for the check run that is created when a github token is provided." />
+                  <entry key="chownFilesTo" value="r[false]  User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts" />
+                  <entry key="containerRegistryImageVersion" value="r[false] def[3] Container registry image version. Only applicable if customImage is not set." />
+                  <entry key="containerRegistryRepository" value="r[false] def[unityci/editor] Container registry and repository to pull image from. Only applicable if customImage is not set." />
+                  <entry key="coverageOptions" value="r[false] def[generateAdditionalMetrics;generateHtmlReport;generateBadgeReport;dontClear] Optional coverage parameters for the -coverageOptions argument. To get coverage in Package Mode, pass assemblies from the package you want covered to the assemblyFilters option." />
+                  <entry key="customImage" value="r[false]  Specific docker image that should be used for testing the project. If packageMode is true, this image must have jq installed." />
+                  <entry key="customParameters" value="r[false]  Extra parameters to configure the Unity editor run." />
+                  <entry key="dockerCpuLimit" value="r[false]  Number of CPU cores to assign the docker container. Defaults to all available cores on all platforms." />
+                  <entry key="dockerIsolationMode" value="r[false] def[default] Isolation mode to use for the docker container. Can be one of process, hyperv, or default. Default will pick the&#10;      default mode as described by Microsoft where server versions use process and desktop versions use hyperv. Only&#10;      applicable on Windows" />
+                  <entry key="dockerMemoryLimit" value="r[false]  Amount of memory to assign the docker container. Defaults to 95% of total system memory rounded down to the&#10;      nearest megabyte on Linux and 80% on Windows. On unrecognized platforms, defaults to 75% of total system memory.&#10;      To manually specify a value, use the format &lt;number&gt;&lt;unit&gt;, where unit is either m or g. ie: 512m = 512 megabytes" />
+                  <entry key="gitPrivateToken" value="r[false]  GitHub Private Access Token (PAT) to pull from GitHub." />
+                  <entry key="githubToken" value="r[false]  Token to authorize access to the GitHub REST API. If provided, a check run will be created with the test results." />
+                  <entry key="packageMode" value="r[false] def[false] Whether the tests are being run for a Unity package instead of a Unity project. If true, the action can only be run on Linux runners, and any custom docker image passed to this action must have `jq` installed. NOTE: may not work properly for packages with dependencies outside of the Unity Registry." />
+                  <entry key="projectPath" value="r[false]  Path to the Unity project or package to be tested." />
+                  <entry key="runAsHostUser" value="r[false] def[false] Whether to run as a user that matches the host system or the default root container user. Only applicable to&#10;      Linux hosts and containers. This is useful for fixing permission errors on Self-Hosted runners." />
+                  <entry key="sshAgent" value="r[false]  SSH Agent path to forward to the container." />
+                  <entry key="sshPublicKeysDirectoryPath" value="r[false]  Path to a directory containing SSH public keys to forward to the container." />
+                  <entry key="testMode" value="r[false] def[all] The type of tests to be run by the test runner." />
+                  <entry key="unityLicensingServer" value="r[false]  Url to a unity license server for acquiring floating licenses." />
+                  <entry key="unityVersion" value="r[false] def[auto] Version of unity to use for testing the project. Use &quot;auto&quot; to get from your ProjectSettings/ProjectVersion.txt. âš ï¸� If testing a Unity Package, this field is required and cannot be set to &quot;auto&quot;." />
+                  <entry key="useHostNetwork" value="r[false] def[false] Initialises Docker using the host network." />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/game-ci/unity-test-runner/v4/action.yml" />
+                  <entry key="expiryTime" value="1708476077597" />
+                  <entry key="githubUrl" value="https://github.com/game-ci/unity-test-runner/tree/v4#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="game-ci/unity-test-runner" />
+                  <entry key="usesValue" value="game-ci/unity-test-runner@v4" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="artifactsPath" value=" Path where the artifacts are stored." />
+                  <entry key="coveragePath" value=" Path where the code coverage results are stored." />
                 </map>
               </option>
             </GitHubAction>
