@@ -5,6 +5,7 @@
       <mapping pattern="InternalsVisibleToTests" type="AUTO_DETECTED" />
       <mapping pattern="TestCompleteE01Input" type="AUTO_DETECTED" />
       <mapping ext="webp" type="Image" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern=".gitinclude" type="PLAIN_TEXT" />
       <mapping ext="tales" type="PLAIN_TEXT" />
       <mapping ext="userproperties" type="PLAIN_TEXT" />
